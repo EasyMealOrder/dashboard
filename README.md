@@ -21,3 +21,4 @@
     -  [技术报告](https://github.com/EasyMealOrder/dashboard/blob/master/docs/tech_work_report.md)
     -  [期中测试](https://github.com/EasyMealOrder/dashboard/tree/master/mid-term-exam)
         -  [题目](https://github.com/EasyMealOrder/dashboard/blob/master/mid-term-exam/midTerm.pdf)
+        -  [其他组员作答](https://github.com/EasyMealOrder/dashboard/tree/gh-pages/mid-term-exam/answer)
