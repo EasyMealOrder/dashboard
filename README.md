@@ -14,7 +14,7 @@
         -  [需求及用例(含用例图)](https://github.com/EasyMealOrder/dashboard/blob/master/docs/Requirement_specification/requirements_and_userCase.md)
         -  [领域模型](https://github.com/EasyMealOrder/dashboard/blob/master/docs/Requirement_specification/domain_model.md)
         -  [状态模型](https://github.com/EasyMealOrder/dashboard/blob/master/docs/Requirement_specification/state_Model.md)
-        -  [系统顺序图](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/system_sequence_diagram.md)
+        -  [系统顺序图](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/Requirement_specification/System_sequence_diagram.md)
 -  精化阶段制品
     -  [UI设计](https://github.com/EasyMealOrder/dashboard/blob/master/assets/UI_Design.pdf)
     -  [Apiary](https://github.com/EasyMealOrder/dashboard/blob/master/assets/apiary.apib)
