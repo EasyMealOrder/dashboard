@@ -3,3 +3,6 @@
 
 ## 15331394
 ![ssd_for_wechatPay](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd2.png)
+
+## 15331033
+![ssd_for_CheckOrder](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd3.png)
