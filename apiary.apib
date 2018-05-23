@@ -11,49 +11,65 @@ The Documentation mode is https://easymealorder.docs.apiary.io
 ### List All Dishes [GET]
 
 + Response 200 (application/json)
-
-        [
-            {
-                "name": "农家蛋炒饭",
-                "description": "加了香肠火腿回锅肉，真香，500块钱一碗,你吃得起吗",
-                "num": 1,
-                "dish_img": "https://pic1.zhimg.com/v2-e87c324cb0c3abf90344d5fe3a5f00ed_r.jpg",
-                "price": 500,
-                "id": 0
-              },
-              {
-                "name": "82年雪碧1号",
-                "description": "压压惊专用",
-                "num": 1,
-                "dish_img": "https://i-3-qqxzb.715083.com/2018/5/7/043ebd4f-ec47-4b18-84b3-3a316ec7bf80.png?imageView2/2/q/85",
-                "price": 82,
-                "id": 1
-              },
-              {
-                "name": "中山大学退学通知书",
-                "description": "好好学习，天天向上",
-                "num": 1,
-                "dish_img": "https://pic1.zhimg.com/v2-5ff606482ff1e181fbc34e7dba51a7c8_r.jpg",
-                "price": 82,
-                "id": 2
-              },
-              {
-                "name": "客家擂茶",
-                "description": "家乡的味道",
-                "num": 1,
-                "dish_img": "https://img.mimihan.tw/uploads/20170514151247_3.jpg",
-                "price": 30,
-                "id": 3
-              },
-              {
-                "name": "发粄",
-                "description": "家乡的味道",
-                "num": 1,
-                "dish_img": "http://www.tfmta.com/files/2015-4/20150403113046174036.jpg",
-                "price": 0.5,
-                "id": 4
-              }
-        ]
+    {
+        "dishTypeList":
+            [
+                "全部",
+                "纪念品",
+                "特色",
+                "饮料",
+                "主食",
+                "小食"
+            ],
+        "allDish":
+            [
+                {
+                    "name": "农家蛋炒饭",
+                    "description": "加了香肠火腿回锅肉，真香，500块钱一碗,你吃得起吗",
+                    "num": 1,
+                    "type": ["主食", "全部"],
+                    "dish_img": "https://pic1.zhimg.com/v2-e87c324cb0c3abf90344d5fe3a5f00ed_r.jpg",
+                    "price": 500,
+                    "id": 0
+                  },
+                  {
+                    "name": "82年雪碧1号",
+                    "description": "压压惊专用",
+                    "num": 1,
+                    "type": ["饮料", "全部"],
+                    "dish_img": "https://i-3-qqxzb.715083.com/2018/5/7/043ebd4f-ec47-4b18-84b3-3a316ec7bf80.png?imageView2/2/q/85",
+                    "price": 82,
+                    "id": 1
+                  },
+                  {
+                    "name": "中山大学退学通知书",
+                    "description": "好好学习，天天向上",
+                    "num": 1,
+                    "type": ["纪念品", "全部"],
+                    "dish_img": "https://pic1.zhimg.com/v2-5ff606482ff1e181fbc34e7dba51a7c8_r.jpg",
+                    "price": 82,
+                    "id": 2
+                  },
+                  {
+                    "name": "客家擂茶",
+                    "description": "家乡的味道",
+                    "num": 1,
+                    "type": ["特色", "全部"],
+                    "dish_img": "https://img.mimihan.tw/uploads/20170514151247_3.jpg",
+                    "price": 30,
+                    "id": 3
+                  },
+                  {
+                    "name": "发粄",
+                    "description": "家乡的味道",
+                    "num": 1,
+                    "type": ["特色", "全部", "小食"],
+                    "dish_img": "http://www.tfmta.com/files/2015-4/20150403113046174036.jpg",
+                    "price": 0.5,
+                    "id": 4
+                  }
+            ]
+    }
 ## Customer Collection [/orders]
 
 ### Customer submit order [POST]
