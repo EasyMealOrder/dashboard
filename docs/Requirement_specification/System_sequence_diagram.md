@@ -6,3 +6,6 @@
 
 ## 15331033
 ![ssd_for_CheckOrder](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd3.png)
+
+## 15331006
+![ssd_for_CancelOrder](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd4.png)
