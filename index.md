@@ -26,6 +26,7 @@ layout: default
         - 7.2.2 [订餐系统子系统数据课设计](./docs/dataBase_design)   
         - 7.2.x 第三方数据评审结果
     - **7.3 API 设计**
+    - 7.4 [Software Architecture Document](./docs/software_architecture_document)（软件架构文档）
 * 8、生产规范与指南
    - 8.1 [javascript代码规范](./docs/GuideBook/Google_javascript_style_guide.pdf)  
    - 8.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)  
