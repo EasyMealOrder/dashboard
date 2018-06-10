@@ -1,0 +1,169 @@
+FORMAT: 1A
+HOST: http://easymealorder.apiblueprint.org/
+
+# easyMealOrder
+
+easyMealOrder is a simple API allowing people to deal with meal order online.
+The Documentation mode is https://easymealorder.docs.apiary.io
+
+## Dishes Collection [/dishes]
+
+### List All Dishes [GET]
+
++ Response 200 (application/json)
+    {
+        "dishTypeList":
+            [
+                {
+                    "tid": 0,
+                    "name": "全部"
+                },
+                {
+                    "tid": 1,
+                    "name": "纪念品"
+                },
+                {
+                    "tid": 2,
+                    "name": "特色"
+                },
+                {
+                    "tid": 3,
+                    "name": "主食"
+                },
+                {
+                    "tid": 4,
+                    "name": "小食"
+                }
+            ],
+        "allDish":
+            [
+                {
+                    "name": "农家蛋炒饭",
+                    "description": "加了香肠火腿回锅肉，真香，500块钱一碗,你吃得起吗",
+                    "num": 1,
+                    "type": ["主食", "全部"],
+                    "dish_img": "http://i1.17173cdn.com/2fhnvk/YWxqaGBf/outcms/mkbvgrbkvwuvxfd.jpg",
+                    "price": 500,
+                    "id": 0
+                  },
+                  {
+                    "name": "82年雪碧1号",
+                    "description": "压压惊专用",
+                    "num": 1,
+                    "type": ["饮料", "全部"],
+                    "dish_img": "https://i-3-qqxzb.715083.com/2018/5/7/043ebd4f-ec47-4b18-84b3-3a316ec7bf80.png?imageView2/2/q/85",
+                    "price": 82,
+                    "id": 1
+                  },
+                  {
+                    "name": "中山大学退学通知书",
+                    "description": "好好学习，天天向上",
+                    "num": 1,
+                    "type": ["纪念品", "全部"],
+                    "dish_img": "http://edu.asean168.com/uploadfile/2015/0630/20150630024710512.jpg",
+                    "price": 82,
+                    "id": 2
+                  },
+                  {
+                    "name": "客家擂茶",
+                    "description": "家乡的味道",
+                    "num": 1,
+                    "type": ["特色", "全部"],
+                    "dish_img": "https://img.mimihan.tw/uploads/20170514151247_3.jpg",
+                    "price": 30,
+                    "id": 3
+                  },
+                  {
+                    "name": "发粄",
+                    "description": "家乡的味道",
+                    "num": 1,
+                    "type": ["特色", "全部", "小食"],
+                    "dish_img": "http://www.tfmta.com/files/2015-4/20150403113046174036.jpg",
+                    "price": 0.5,
+                    "id": 4
+                  }
+            ]
+    }
+## Customer Collection [/orders]
+
+### Customer submit order [POST]
+
+You may post your order with an array like the one below
+
++ Request (application/json)
+
+        [
+            {
+                "name": "白切鸡",
+                "type": "food",
+                "num" : 1,
+                "note" : "不加辣"
+            },
+            {
+                "name": "可乐",
+                "type": "drink",
+                "num" : 2,
+                "note" : ""
+            }
+        ]
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /orders/1
+
+    + Body
+
+            {
+                "orderID" : "s123",
+                "id" : 1,
+                "time" : 10
+            }
+
+## Cooker Collection [/menus]
+
+### Cooker get menu [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "orderID" : "s123",
+                "name" : ["白切鸡","可乐"],
+                "num" : [1,2],
+                "note" : ["不加辣",""],
+                "id" : 1
+            }
+        ]
+
+### Cooker finish menu [POST]
+
++ Request (application/json)
+        
+        [
+            {
+                "orderID" : "s123",
+                "name" : ["白切鸡"],
+                "num" : ["1"],
+                "id" : 1
+            }
+        ]
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /menus/1
+
+    + Body
+
+        [
+            {
+                "orderID" : "s123",
+                "name" : ["可乐"],
+                "num" : [2],
+                "note" : [""],
+                "id" : 1
+            }
+        ]
