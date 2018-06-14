@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\SoftwareDictionary\\nodejs\\node.exe',
+1 verbose cli   'E:\\SoftwareDictionary\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose stack Error: ENOENT: no such file or directory, open 'F:\学习\大三下\各科\系统分析\EasyMealOrder\EasyMealOrder\package.json'
+5 verbose cwd F:\学习\大三下\各科\系统分析\EasyMealOrder\EasyMealOrder
+6 error Windows_NT 10.0.16299
+7 error argv "E:\\SoftwareDictionary\\nodejs\\node.exe" "E:\\SoftwareDictionary\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+8 error node v7.6.0
+9 error npm  v4.1.2
+10 error path F:\学习\大三下\各科\系统分析\EasyMealOrder\EasyMealOrder\package.json
+11 error code ENOENT
+12 error errno -4058
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open 'F:\学习\大三下\各科\系统分析\EasyMealOrder\EasyMealOrder\package.json'
+15 error enoent ENOENT: no such file or directory, open 'F:\学习\大三下\各科\系统分析\EasyMealOrder\EasyMealOrder\package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ -4058, true ]

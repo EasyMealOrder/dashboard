@@ -127,15 +127,30 @@ You may post your order with an array like the one below
 
 + Response 200 (application/json)
 
-        [
-            {
-                "orderID" : "s123",
-                "name" : ["白切鸡","可乐"],
-                "num" : [1,2],
-                "note" : ["不加辣",""],
-                "id" : 1
-            }
-        ]
+    [
+      {
+        "orderId": 1,
+        "orderTime": "12:00",
+        "dishLish":[
+          {"dishId": 1, "dishName": "test1", "num": 1 ,"isDishCompleted": false},
+          {"dishId": 2, "dishName": "test2", "num": 2 ,"isDishCompleted": false},
+          {"dishId": 3, "dishName": "test2", "num": 1 ,"isDishCompleted": true}
+        ],
+        "note":"不吃辣",
+        "isOrderCompleted": false
+      },
+      {
+        "orderId": 2,
+        "orderTime": "12:50",
+        "dishLish":[
+          {"dishId": 1, "dishName": "最后一餐", "num": 1 ,"isDishCompleted": false},
+          {"dishId": 2, "dishName": "退学通知书", "num": 2 ,"isDishCompleted": false},
+          {"dishId": 3, "dishName": "回家高铁票", "num": 1 ,"isDishCompleted": true}
+        ],
+        "note":"不吃辣",
+        "isOrderCompleted": false
+      }
+    ]
 
 ### Cooker finish menu [POST]
 
