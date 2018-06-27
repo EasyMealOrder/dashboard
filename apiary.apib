@@ -6,181 +6,276 @@ HOST: http://easymealorder.apiblueprint.org/
 easyMealOrder is a simple API allowing people to deal with meal order online.
 The Documentation mode is https://easymealorder.docs.apiary.io
 
-## Dishes Collection [/dishes]
+## Dishes Collection [/category/]
 
-### List All Dishes [GET]
+### List All Category [GET]
+
++ Response 200 (application/json)
+            [
+                {
+                    "dtype": "纪念品"
+                },
+                {
+                    "dtype": "特色"
+                }
+            ]
+            
+## Table Assignment [/table/{table}/]
++ Parameters
+    + table (number) - ID of table
+
+
+### Assign table by id [GET]
 
 + Response 200 (application/json)
     {
-        "dishTypeList":
-            [
-                {
-                    "tid": 0,
-                    "name": "全部"
-                },
-                {
-                    "tid": 1,
-                    "name": "纪念品"
-                },
-                {
-                    "tid": 2,
-                    "name": "特色"
-                },
-                {
-                    "tid": 3,
-                    "name": "主食"
-                },
-                {
-                    "tid": 4,
-                    "name": "小食"
-                }
-            ],
-        "allDish":
-            [
-                {
-                    "name": "农家蛋炒饭",
-                    "description": "加了香肠火腿回锅肉，真香，500块钱一碗,你吃得起吗",
-                    "num": 1,
-                    "type": ["主食", "全部"],
-                    "dish_img": "http://i1.17173cdn.com/2fhnvk/YWxqaGBf/outcms/mkbvgrbkvwuvxfd.jpg",
-                    "price": 500,
-                    "id": 0
-                  },
-                  {
-                    "name": "82年雪碧1号",
-                    "description": "压压惊专用",
-                    "num": 1,
-                    "type": ["饮料", "全部"],
-                    "dish_img": "https://i-3-qqxzb.715083.com/2018/5/7/043ebd4f-ec47-4b18-84b3-3a316ec7bf80.png?imageView2/2/q/85",
-                    "price": 82,
-                    "id": 1
-                  },
-                  {
-                    "name": "中山大学退学通知书",
-                    "description": "好好学习，天天向上",
-                    "num": 1,
-                    "type": ["纪念品", "全部"],
-                    "dish_img": "http://edu.asean168.com/uploadfile/2015/0630/20150630024710512.jpg",
-                    "price": 82,
-                    "id": 2
-                  },
-                  {
-                    "name": "客家擂茶",
-                    "description": "家乡的味道",
-                    "num": 1,
-                    "type": ["特色", "全部"],
-                    "dish_img": "https://img.mimihan.tw/uploads/20170514151247_3.jpg",
-                    "price": 30,
-                    "id": 3
-                  },
-                  {
-                    "name": "发粄",
-                    "description": "家乡的味道",
-                    "num": 1,
-                    "type": ["特色", "全部", "小食"],
-                    "dish_img": "http://www.tfmta.com/files/2015-4/20150403113046174036.jpg",
-                    "price": 0.5,
-                    "id": 4
-                  }
-            ]
+        "table":table
     }
-## Customer Collection [/orders]
+    
+    
+## Dishes Collection [/dishes/]
+
+### Get all dishes [GET]
+
+all dishes' details will be return
+
++ Response 200 (application/json)
+            [
+                {
+                    "id":2,
+                    "name": "白切鸡",
+                    "price":16.5,
+                    "pic": "img/xxx.jpg"，
+                    "type": "food",
+                    "num" : 1,
+                    "description" : "不加辣",
+                    "recommend":true
+                },
+                {
+                    "id":3,
+                    "price":16.5,
+                    "name": "假装白切鸡",
+                    "dtype": "pppp",
+                    "pic":"img/pic.jpg"
+                    "num" : 1,
+                    "description" : "不加辣",
+                    "recommend":true
+                }
+            ]
+    
+## Dish collection [/dishes/{id}/]
++ Parameters
+    + id (number) - ID of dish
+
+
+### Get dishes info by id [GET]
+
++ Response 200 (application/json)
+                {
+                    "id":id,
+                    "price":16.5,
+                    "name": "假装白切鸡",
+                    "dtype": "pppp",
+                    "pic":"img/pic.jpg"
+                    "num" : 1,
+                    "description" : "不加辣",
+                    "recommend":true
+                }
+
+## Order collection [/order/ufcount/]
+
+### Get unfinished order count [GET]
+
++ Response 200 (application/json)
+                {
+                    count:3
+                }
+                
+## Order collection [/order/cancelcount/]
+
+### Get canceled order count [GET]
+
++ Response 200 (application/json)
+                {
+                    count:3
+                }                
+                
+## Order collection [/order/count/]
+
+### Get order count [GET]
+
++ Response 200 (application/json)
+                {
+                    count:3
+                }
+## Order collection [/order/unfinished/]
+
+### Get unfinished order(staff only) [GET]
+
++ Response 200 (application/json)
+ [
+        {
+            "id" :2,
+            "username"  :"anon",
+            "price" :12.8,
+            "finished" :True,
+            "cancel" :False,
+            "note"  :"shiiiit",
+            "table"  :3
+        },
+        {
+            "id" :3,
+            "username"  :"anon",
+            "price" :14.8,
+            "finished" :True,
+            "cancel" :False,
+            "note"  :"good shiiiit",
+            "table"  :6
+        },
+]           
+
+## Order collection [/order/{orderid}/]
++ Parameters
+    + orderid (number) - ID of order
+### Get order [GET]
+
++ Response 200 (application/json)
+        {
+            "id" :orderid,
+            "username"  :"anon",
+            "price" :12.8,
+            "finished" :True,
+            "cancel" :False,
+            "note"  :"shiiiit",
+            "table"  :3
+        }
+## Order collection [/order/pages/{OnePagesItemNum}/{pageNumber}]
++ Parameters
+    + OnePagesItemNum (number) - item number per page
+    + pageNumber (number) - which page
+### Get many order [GET]
+
++ Response 200 (application/json)
+[
+   {
+      "id" :2,
+      "price" :12,
+      "finished" :True,
+	}
+]
+
+
+
+
+## DishRecord collection [/dishrecord/{order}/]
++ Parameters
+    + order (number) - order id
+
+### Get dishrecord [GET]
+
++ Response 200 (application/json)
+[
+ {
+    "orderID" :order,
+    "name":"rubber"
+    "dishID" :2,
+    "number":2,
+    "price" :12.7
+    "finished":True
+ }
+]
+
+
+
+
+## order Collection [/orders/create/]
 
 ### Customer submit order [POST]
 
-You may post your order with an array like the one below
 
 + Request (application/json)
 
-        [
-            {
-                "name": "白切鸡",
-                "type": "food",
-                "num" : 1,
-                "note" : "不加辣"
-            },
-            {
-                "name": "可乐",
-                "type": "drink",
-                "num" : 2,
-                "note" : ""
-            }
-        ]
+{
+    "order":{
+    "price":14,
+    "note":"more salt",
+    "table":1
+    },
+    "dishrecord":[{"dishID":1,"number":1,"price":14,"name":"fgsh"},{"dishID":2,"number":3,"price":25,"name":"rubbers"}]
+}
 
 + Response 201 (application/json)
 
-    + Headers
-
-            Location: /orders/1
 
     + Body
 
             {
-                "orderID" : "s123",
-                "id" : 1,
-                "time" : 10
+                "orderID" : 666
             }
 
-## Cooker Collection [/menus]
 
-### Cooker get menu [GET]
 
-+ Response 200 (application/json)
+## Order Collection [/orders/cancel/]
 
-    [
-      {
-        "orderId": 1,
-        "orderTime": "12:00",
-        "deskId": 1,
-        "dishList":[
-          {"dishId": 1, "dishName": "test1", "num": 1 ,"isDishCompleted": false},
-          {"dishId": 2, "dishName": "test2", "num": 2 ,"isDishCompleted": false},
-          {"dishId": 3, "dishName": "test2", "num": 1 ,"isDishCompleted": true}
-        ],
-        "note":"不吃辣",
-        "isOrderCompleted": false
-      },
-      {
-        "orderId": 2,
-        "orderTime": "12:50",
-        "deskId": 1,
-        "dishList":[
-          {"dishId": 1, "dishName": "最后一餐", "num": 1 ,"isDishCompleted": false},
-          {"dishId": 2, "dishName": "退学通知书", "num": 2 ,"isDishCompleted": false},
-          {"dishId": 3, "dishName": "回家高铁票", "num": 1 ,"isDishCompleted": true}
-        ],
-        "note":"不吃辣",
-        "isOrderCompleted": false
-      }
-    ]
+### Customer cancel order [POST]
 
-### Cooker finish menu [POST]
 
 + Request (application/json)
-        
-        [
-            {
-                "orderID" : "s123",
-                "name" : ["白切鸡"],
-                "num" : ["1"],
-                "id" : 1
-            }
-        ]
+
+{
+    "orderID":34
+}
 
 + Response 201 (application/json)
 
-    + Headers
-
-            Location: /menus/1
 
     + Body
 
-        [
             {
-                "orderID" : "s123",
-                "name" : ["可乐"],
-                "num" : [2],
-                "note" : [""],
-                "id" : 1
+                "orderID" : 34
             }
-        ]
+            
+
+## Order Collection [/orders/finish/]
+
+### Cook finish order [POST]
+
+
++ Request (application/json)
+
+{
+    "orderID":666
+}
+
++ Response 201 (application/json)
+
+
+    + Body
+
+            {
+                "orderID" : 666
+            }
+            
+
+## DishRecord Collection [/dishrecord/finish/]
+
+### Cook finish dishrecord [POST]
+
+
++ Request (application/json)
+
+{
+    "orderID":666,
+    "dishID":3
+}
+
++ Response 201 (application/json)
+
+
+    + Body
+
+            {
+                "orderID" : 666
+            }
+            
+
