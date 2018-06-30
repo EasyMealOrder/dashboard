@@ -36,3 +36,5 @@ layout: default
     - inception meeting (yy/mm/dd)
 * X2 Tech/Work Report
     - 学号-title
+* X3 Final Report
+    - [15331033-Final_Report](./docs/Final_Report/15331033)
