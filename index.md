@@ -38,3 +38,4 @@ layout: default
     - 学号-title
 * X3 Final Report
     - [15331033-Final_Report](./docs/Final_Report/15331033)
+    - [15331234-Final_Report](https://blog.csdn.net/lohiaufung/article/details/80841510)
