@@ -20,7 +20,7 @@ layout: default
     - 6.6 [Supplementary Requirements](./docs/supplementary_requirements)（补充性规格说明）
 * 7、Design（设计）
     - 7.1 [UI design](./assets/UI_Design.pdf)  
-        - 7.1.1 [点餐端UI设计]()
+        - 7.1.1 [点餐端UI设计](./docs/UI/点餐端UI设计)
         - 7.1.2 [厨师端UI设计]()
     - 7.2 Database design  
         - 7.2.1 [用户及权限系统数据库设计](./docs/dataBase_design)  
@@ -34,7 +34,7 @@ layout: default
         - 8.1.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)
         - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
    - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)
-   - 8.3 [框架目录设计、逻辑架构与ECB的关系]()
+   - 8.3 [框架目录设计、逻辑架构与ECB的关系](.)
    - 8.4 [部署说明](./docs/SDP/软件部署说明.md)
 * X1 meet_recording
     - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
@@ -52,3 +52,7 @@ layout: default
     - [15331394-Final_Report](https://blog.csdn.net/ygtrece/article/details/80869947)
     - [15331421-Final_Report](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/Final_Report/15331421.pdf)
     - [15331006-Final_Report](https://caijh23.github.io/2018/06/30/finalReport/)
+    - [小组分工与贡献率说明](./docs/SDP/小组分工与贡献率说明)
+* XX 期中建模练习
+    - [建模业务介绍及要求](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/mid-term-exam/midTerm.pdf)
+    - [建模者答案及评价](https://github.com/EasyMealOrder/dashboard/tree/gh-pages/mid-term-exam/answer/15331388)
