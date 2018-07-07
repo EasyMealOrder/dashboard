@@ -20,7 +20,7 @@ layout: default
     - 6.6 [Supplementary Requirements](./docs/supplementary_requirements)（补充性规格说明）
 * 7、Design（设计）
     - 7.1 [UI design](./assets/UI_Design.pdf)  
-        - 7.1.1 [点餐端UI设计]()
+        - 7.1.1 [点餐端UI设计](./docs/UI/点餐端UI设计)
         - 7.1.2 [厨师端UI设计]()
     - 7.2 Database design  
         - 7.2.1 [用户及权限系统数据库设计](./docs/dataBase_design)  
