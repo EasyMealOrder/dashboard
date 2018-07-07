@@ -20,7 +20,8 @@ layout: default
     - 6.6 [Supplementary Requirements](./docs/supplementary_requirements)（补充性规格说明）
 * 7、Design（设计）
     - 7.1 [UI design](./assets/UI_Design.pdf)  
-        - XX 用例 UI设计
+        - 7.1.1 [点餐端UI设计]()
+        - 7.1.2 [厨师端UI设计]()
     - 7.2 Database design  
         - 7.2.1 [用户及权限系统数据库设计](./docs/dataBase_design)  
         - 7.2.2 [订餐系统子系统数据课设计](./docs/dataBase_design)
@@ -32,7 +33,9 @@ layout: default
         - 8.1.1 [javascript代码规范](./docs/GuideBook/Google_javascript_style_guide.pdf) 
         - 8.1.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)
         - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
-   - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
+   - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)
+   - 8.3 [框架目录设计、逻辑架构与ECB的关系]()
+   - 8.4 [部署说明]()
 * X1 meet_recording
     - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
 * X2 Tech/Work Report
