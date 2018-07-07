@@ -19,9 +19,9 @@ layout: default
     - 6.5 [System Sequence Diagram](./docs/Requirement_specification/System_sequence_diagram)（功能模型）
     - 6.6 [Supplementary Requirements](./docs/supplementary_requirements)（补充性规格说明）
 * 7、Design（设计）
-    - 7.1 [UI design](./assets/UI_Design.pdf)  
-        - 7.1.1 [点餐端UI设计](./docs/UI/点餐端UI设计)
-        - 7.1.2 [厨师端UI设计]()
+    - 7.1 UI design
+        - 7.1.1 [UI设计(原版)](./assets/UI_Design.pdf)
+        - 7.1.2 [UI设计(迭代版)](./docs/UI/新UI设计)
     - 7.2 Database design  
         - 7.2.1 [用户及权限系统数据库设计](./docs/dataBase_design)  
         - 7.2.2 [订餐系统子系统数据课设计](./docs/dataBase_design)
