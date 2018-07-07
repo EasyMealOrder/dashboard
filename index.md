@@ -54,5 +54,5 @@ layout: default
     - [15331006-Final_Report](https://caijh23.github.io/2018/06/30/finalReport/)
     - [小组分工与贡献率说明](./docs/SDP/小组分工与贡献率说明)
 * XX 期中建模练习
-    - [建模业务介绍及要求](./blob/gh-pages/mid-term-exam/midTerm)
+    - [建模业务介绍及要求](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/mid-term-exam/midTerm.pdf)
     - [建模者答案及评价](https://github.com/EasyMealOrder/dashboard/tree/gh-pages/mid-term-exam/answer/15331388)
