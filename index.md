@@ -29,10 +29,11 @@ layout: default
     - 7.4 [Software Architecture Document](./docs/software_architecture_document)（软件架构文档）
     - 7.5 [ECB User Case](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/ecb-user-case.md)
 * 8、生产规范与指南
-   - 8.1 [javascript代码规范](./docs/GuideBook/Google_javascript_style_guide.pdf)  
-   - 8.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)  
-   - 8.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)  
-   - 8.4 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
+   - 8.1 代码规范
+        - 8.1.1 [javascript代码规范](./docs/GuideBook/Google_javascript_style_guide.pdf) 
+        - 8.1.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)
+        - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
+   - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
 * X1 meet_recording
     - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
 * X2 Tech/Work Report
