@@ -34,7 +34,7 @@ layout: default
    - 8.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)  
    - 8.4 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
 * X1 meet_recording
-    - inception meeting (yy/mm/dd)
+    - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
 * X2 Tech/Work Report
     - [15331262-Github使用傻瓜入门](https://blog.csdn.net/overflow_1/article/details/79919370)
     - [15331234-UMLet的安装和使用](https://blog.csdn.net/lohiaufung/article/details/79869127)
