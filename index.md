@@ -52,3 +52,4 @@ layout: default
     - [15331394-Final_Report](https://blog.csdn.net/ygtrece/article/details/80869947)
     - [15331421-Final_Report](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/Final_Report/15331421.pdf)
     - [15331006-Final_Report](https://caijh23.github.io/2018/06/30/finalReport/)
+    - [小组分工与贡献率说明](/docs/SDP/小组分工与贡献率说明)
