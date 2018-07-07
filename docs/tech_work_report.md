@@ -18,7 +18,7 @@
 
 15331421 郑佳锋     Ubuntu下Django开发环境搭建
 
-> http://zjfblog.club/2018/04/15/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-5/
+> http://zjfblog.club/2018/04/15/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-3/
 
 15331033 陈文彬     Python Django使用
 
