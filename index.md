@@ -33,7 +33,7 @@ layout: default
         - 8.1.1 [javascript代码规范](./docs/GuideBook/Google_javascript_style_guide.pdf) 
         - 8.1.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)
         - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
-   - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
+   - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)  
 * X1 meet_recording
     - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
 * X2 Tech/Work Report
