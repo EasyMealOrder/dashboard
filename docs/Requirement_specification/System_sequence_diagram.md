@@ -1,11 +1,18 @@
-## 15331261
-![ssd_for_order](https://github.com/EasyMealOrder/dashboard/raw/gh-pages/docs/image/ssd1.PNG)
+## 系统顺序图
 
-## 15331394
-![ssd_for_wechatPay](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd2.png)
+用户点餐场景:
 
-## 15331033
-![ssd_for_CheckOrder](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd3.png)
+![](systemSequence/ssd1.PNG)
 
-## 15331006
-![ssd_for_CancelOrder](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/image/ssd4.png)
+用户支付场景:
+
+![](systemSequence/ssd2.png)
+
+用户查看点餐信息:
+
+![](systemSequence/ssd3.png)
+
+用户取消订单场景:
+
+![](systemSequence/ssd4.png)
+
