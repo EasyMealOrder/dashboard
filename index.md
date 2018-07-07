@@ -15,7 +15,7 @@ layout: default
     - 6.1 [Usecase Diagram](./docs/Requirement_specification/requirements_and_userCase)（用例图）
     - 6.2 [Use Cases](./docs/Requirement_specification/requirements_and_userCase)（用例+活动图）
     - 6.3 [Domian Model](./docs/Requirement_specification/domain_model)（领域模型）
-    - 6.4 [State Model](./docs/Requirement_specification/state_Model)（状态模型）
+    - 6.4 [State Model](./docs/Requirement_specification/state_model)（状态模型）
     - **6.5 System Sequence Diagram（功能模型）**
     - 6.6 [Supplementary Requirements](./docs/supplementary_requirements)（补充性规格说明）
 * 7、Design（设计）
