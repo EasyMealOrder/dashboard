@@ -24,7 +24,7 @@ layout: default
     - 7.2 Database design  
         - 7.2.1 [用户及权限系统数据库设计](./docs/dataBase_design)  
         - 7.2.2 [订餐系统子系统数据课设计](./docs/dataBase_design)
-        - 7.2.3 [第三方数据评审结果](./docs/dataBase)
+        - 7.2.3 [第三方数据评审结果](./docs/data)
     - 7.3 [API Design](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/apiary.apib)(API 设计)
     - 7.4 [Software Architecture Document](./docs/software_architecture_document)（软件架构文档）
     - 7.5 [Usecase Design](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/ecb-user-case.md)(用例设计）
