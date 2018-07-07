@@ -35,7 +35,7 @@ layout: default
         - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
    - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)
    - 8.3 [框架目录设计、逻辑架构与ECB的关系]()
-   - 8.4 [部署说明]()
+   - 8.4 [部署说明](./docs/SDP/软件部署说明.md)
 * X1 meet_recording
     - [Inception Meeting](./docs/meeting_recording_all)(迭代会议）
 * X2 Tech/Work Report
