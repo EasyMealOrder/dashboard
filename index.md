@@ -34,7 +34,7 @@ layout: default
         - 8.1.2 [python代码规范](./docs/GuideBook/Google_python_style_guide)
         - 8.1.3 [html/css代码规范](./docs/GuideBook/Google_html_css_style_guide)
    - 8.2 [REST API 设计规范](./docs/GuideBook/RESTful-API-design-OCTO-Quick-Reference-Card-2.2.pdf)
-   - 8.3 [框架目录设计、逻辑架构与ECB的关系](.)
+   - 8.3 [框架目录设计、逻辑架构与ECB的关系](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/SDP/%E6%A1%86%E6%9E%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E8%AE%A1%E3%80%81%E9%80%BB%E8%BE%91%E6%9E%B6%E6%9E%84%E4%B8%8EECB%E7%9A%84%E5%85%B3%E7%B3%BB.md)
    - 8.4 [部署说明](./docs/SDP/软件部署说明.md)
 * 9、成品展示
    - [短视频](https://github.com/EasyMealOrder/dashboard/blob/gh-pages/docs/Show/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA.md)  
