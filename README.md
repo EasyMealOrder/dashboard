@@ -1,4 +1,6 @@
 ##  归档
+- 软件工程综合实验相关文档
+    - [SDP文档目录](https://github.com/EasyMealOrder/dashboard/tree/gh-pages/docs/SDP)
 -  扫码点餐系统
     -  [项目规划](https://github.com/EasyMealOrder/dashboard/blob/master/docs/about.md)
     -  [愿景文档](https://github.com/EasyMealOrder/dashboard/blob/master/docs/vision.md)
